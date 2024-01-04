@@ -1,0 +1,61 @@
+.Page-Wrapper
+{
+    width: 1414px;
+}
+
+.Register-Page-Wrapper
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Logo-Wrapper
+{
+    text-align: center;
+}
+
+.Small-BuildIt-Logo
+{
+    width: 378px;
+    height: 378px;
+}
+
+.Register-Form
+{
+    color: white;
+    width: 60%;
+    border: 5px solid white;
+    margin-top: 25px;
+    margin-left: 225px;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+}
+
+.Register-Form > label
+{
+    margin-top: 10px;
+}
+
+.Register-Form input[type=text]
+{
+    color: black;
+    margin-left: 10px;
+    width: 391px;
+    height: 29px;
+}
+
+.Register-Button
+{
+    color: white;
+    background: #646464;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.Password-Input
+{
+    margin-left: 10px;
+    width: 391px;
+    height: 29px;
+}

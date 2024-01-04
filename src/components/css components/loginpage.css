@@ -1,0 +1,100 @@
+.Login-Page-Wrapper
+{
+    text-align: center;
+}
+
+.Welcome-Label
+{
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.Name-Label
+{
+    display: inline-block;
+    color: #2195B9;
+}
+
+.Main-Content
+{
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Complete-Logo
+{
+    max-width: 50%;
+}
+
+.BuildItLogo
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 0px;
+}
+
+.Login-Label
+{
+    margin-bottom: 50px;
+}
+
+.Login-Box
+{
+    color: white;
+    font-size: 30px;
+    width: 767px;
+    height: 533.35px;
+    margin-left: 100px;
+    margin-top: 50px;
+    max-width: 50%;
+}
+
+.Entry
+{
+    width: 391px;
+    color: black;
+}
+
+.Forgot-Password-Button
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 110px;
+}
+
+.Forgot-Password-Button:hover
+{
+    color: grey;
+}
+
+.Login-Button
+{
+    border-radius: 100px;
+    background-color: #646464;
+    color: white;
+    margin-top: 20px;
+}
+
+.Login-Button:hover
+{
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+
+.Register-Label
+{
+    margin-top: 20px;
+}
+
+.Register-Button
+{
+    margin-top: 20px;
+}
+
+.Register-Button:hover
+{
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}

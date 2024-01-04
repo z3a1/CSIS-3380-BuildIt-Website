@@ -1,0 +1,74 @@
+::-webkit-scrollbar { display: none; }
+
+.User-Builds
+{
+    background-color: #E8E4E4;
+    height: 601px;
+    margin-bottom: 86px;
+}
+
+.User-Builds:not(.Title-Label)
+{
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.User-Builds > .Title-Label
+{
+    width: 441px;
+    height: 35px;
+    text-align: center;
+    margin: 2.5px;
+    background-color: #C4C4C4;
+    color: black;
+    float:left;
+    font-size: 25px;
+}
+
+.Build-Card-List
+{
+    color: black;
+    margin: 0 auto;
+}
+
+.swiper {
+    width: 1414px;
+    height: 400px;
+
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    transition: all .4s ease;             
+}
+
+.View-More-Builds-Btn
+{
+    border-radius: 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #646464;
+    border: none;
+}
+
+.View-More-Builds-Btn
+{
+    margin-top: 50px;
+}
+
+.View-More-Builds-Btn:hover
+{
+    cursor: pointer;
+}
+
+#Post-Card-Img
+{
+    height: 395px;
+    width: 550px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,75 @@
+.Post-Content-Wrapper
+{
+    background-color: #C4C4C4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1128px;
+}
+
+.Post-Content
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Create-Comment-Section
+{
+    color: white;
+    width: 1414px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Comment-Entry-Box
+{
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    min-width: 1414px;
+    height: 180px;
+    box-sizing: border-box;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0.4em;
+    padding-right: 0.4em;  
+}
+
+.Submit-Comment
+{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    width: 273px;
+    background-color: #646464;
+    border-radius: 20px;
+}
+
+.Submit-Comment:hover {
+    color: black; 
+    cursor: pointer;
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+
+.Comment-Section
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Comment-Label
+{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.Img-Post
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

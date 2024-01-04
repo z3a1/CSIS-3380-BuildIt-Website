@@ -1,0 +1,23 @@
+.Post-Info-Table
+{
+    float: left;
+}
+
+.UpVote:hover
+{
+    color: black; 
+    cursor: pointer;
+    border: none;
+}
+
+.DownVote:hover
+{
+    color: black; 
+    cursor: pointer;
+    border: none;
+}
+
+.Comments
+{
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.Faq-Wrapper
+{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.Thread-Posts-Wrapper
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.Thread-Posts-Wrapper > .Post-Wrapper > *
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

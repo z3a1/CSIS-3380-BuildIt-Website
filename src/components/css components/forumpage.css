@@ -1,0 +1,45 @@
+.Forum-Container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.Search-Form-Container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.Search-Box-Img
+{
+    color: white;
+    background-color: #FFB800;
+    font-family: FontAwesome;
+    padding-right: 20px;    
+    font-weight: 900;
+    width: 25px;
+}
+
+.Search-Box
+{
+    width: 600px;
+    font-weight: 890;
+}
+
+.Sort-Buttons
+{
+    margin: 10px auto 10px auto;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    width: 650px;
+}
+
+.Reset-Button
+{
+    position: sticky;
+    bottom: 500px;
+    left: 1900px;
+    margin-right: auto;
+}

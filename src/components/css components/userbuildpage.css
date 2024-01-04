@@ -1,0 +1,21 @@
+.Build-Post-Display
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1300px;
+    position: absolute;
+    left: 10%;
+}
+
+.Build-Post-Display > *
+{
+    margin-top: 100px;
+}
+
+.Reset-Button
+{
+    position: sticky;
+    bottom: 500px;
+    left: 1900px;
+    margin-right: auto;
+}

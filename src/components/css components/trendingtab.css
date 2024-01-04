@@ -1,0 +1,95 @@
+.Trend-Wrapper
+{
+    background-color: #C4C4C4;
+    display: block;
+    overflow: auto;
+    width: 1426px;
+}
+
+.Trend-Label
+{
+    background-color: #062F4F;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.Trend-Text
+{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.Trend-Icon
+{
+    margin-left: 90%;
+}
+
+.Trend-Wrapper > :not(:first-child)
+{
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    color: black;
+}
+
+.Popular-Posts
+{
+    width: 70%;
+    max-width: 70%;
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10px 20px 1fr;
+    align-content: left;
+}
+
+.Pop-Post-Label
+{
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+.Pop-Topics-Label
+{
+    font-size: 40px;
+}
+
+.Button-Row
+{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-top: 100px;
+    
+}
+
+.Post-List
+{
+    margin-top: 130px;
+}
+
+.Popular-Topics
+{
+    width: 30%;
+}
+
+.Topic-List-Container
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.List-Item
+{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 40px;
+    font-size: 30px;
+    text-align: left;
+}
+.List-Item:hover{cursor: pointer;}

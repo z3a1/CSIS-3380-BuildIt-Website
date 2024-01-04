@@ -1,0 +1,28 @@
+
+.Component-Page-Wrapper
+{
+    color: white;
+}
+
+.Component-Label
+{
+    margin-top: 50px;
+    background-color: #062F4F;
+    color: white;
+    width: 394px;
+    height: 118px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.011em;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Video
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    width: 100%;
+}

@@ -1,0 +1,81 @@
+.Build-Image-Wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 34%;
+}
+
+.User-Build-Image
+{
+    width: 600px;
+    height: 500px;
+}
+
+.User-Description
+{
+    color: white;
+    text-align: center;
+}
+
+.User-Description > p
+{
+    color: white;
+}
+
+.Comment-Section
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+  }
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+  .Reason-Label
+  {
+    margin-right: 100%;
+  }
+
+  .Reason-Input
+  {
+    margin-right: 100%;
+    width: 100%;
+    height: 200px;
+  }
+
+  .Report-Button
+  {
+    margin: 10px;
+    border-radius: 100px;
+    background-color: #646464;
+    border: 0px none;
+    color: white;
+  }
+
+  .Cancel-Button
+  {
+    margin: 10px;
+    border-radius: 100px;
+    background-color: #646464;
+    border: 0px none;
+    color: white;
+  }

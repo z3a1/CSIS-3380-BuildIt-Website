@@ -1,0 +1,26 @@
+.Button-Container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.Button
+{
+    color: white;
+    background-color: #646464;
+    width: 273px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Button:hover {
+    color: black; 
+    cursor: pointer;
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+    border: none;
+}

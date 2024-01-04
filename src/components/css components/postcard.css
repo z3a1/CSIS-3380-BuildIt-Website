@@ -1,0 +1,26 @@
+.Post-Card-Wrapper
+{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 1fr;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 5px;
+    overflow-y: scroll;
+    clear: both;
+}
+.Post-Title
+{
+   text-align: left;
+   max-height: 10%;
+   padding: 5px;
+}
+
+.card-body
+{
+    text-align: left;
+}

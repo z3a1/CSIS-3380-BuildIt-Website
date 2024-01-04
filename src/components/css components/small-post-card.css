@@ -1,0 +1,26 @@
+.Card-Item
+{
+    width: 351px;
+    height: 352px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.Card-Item:hover{cursor: pointer;}
+
+.Post-Title{margin-right: 50px;}
+
+.Card-Item > .Post-Description
+{
+    padding: 10px;
+    float: left;
+}
+
+#Small-Build-Card
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../placeholder/LOS.png');
+}

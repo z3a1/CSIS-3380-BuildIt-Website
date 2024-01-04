@@ -1,0 +1,101 @@
+.NavBarDiv
+{
+    flex-direction: row; /*added*/
+    background-color: #2195B9;
+    height: 60px;
+    min-width: 1414px;
+    margin-bottom: 10px !important;
+    overflow-y: hidden;
+}
+
+.NavLogo
+{
+    float: left;
+    width: 105px;
+    height: 60px;
+}
+
+.NavLogo:hover
+{
+    cursor: pointer;
+}
+
+.NavBarDiv > span {
+    color: white;
+}
+
+.NavLink
+{
+    height: 60px;
+}
+
+.NavLink > a:not(:first-child)
+{
+    display: inline-grid;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+.NavLink > a:not(:first-child):hover
+{
+   color: black;
+   cursor: pointer;
+}
+
+.UserLinks
+{
+    display: inline-grid;
+    float: right;
+    grid-template-columns: auto auto auto;
+}
+
+.Button-Group
+{
+    display: inline-table;
+    margin: auto;
+    color: white;
+}
+
+.Button-Group > *
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.UserLinks > .BuildButton
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFB800;
+    width: 110px;
+    height: 60px;
+    color: #062F4F;
+}
+
+.BuildButton > .ButtonArrow
+{
+    position: relative;
+    align-self: center;
+}
+
+.BuildButton > .ButtonText
+{
+    text-align: center;
+    width: 60px;
+    word-break: break-word;
+    position: relative;
+}
+
+.Link-Element
+{
+    text-decoration: none;
+    color: white;
+}
+
+.Home-Link{color: white;}
+.Home-Link:hover{color: black;}
+
+.Settings-Link{color: white}
+.Settings-Link:hover{color: black;}

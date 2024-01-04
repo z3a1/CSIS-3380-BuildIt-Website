@@ -1,0 +1,17 @@
+.Comment-Container
+{
+    background-color: #C4C4C4;
+    width: 1414px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.Child-Comment-Container
+{
+    background-color: #C4C4C4;
+    text-align: left;
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}

@@ -1,0 +1,41 @@
+.Post-Content
+{
+    background-color: grey;
+    color: black;
+    margin-top: 50px;
+}
+
+.Post-Description
+{
+    border-top: 1px solid white;
+    margin: 5px;
+}
+
+.Comment-Title
+{
+    margin-top: 50px;
+    border-bottom: 5px solid white;
+}
+
+.Comment
+{
+    background-color: grey;
+    color: black;
+    border: 1.5px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.Create-Comment-Section
+{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.Comment-Box
+{
+    color: black;
+    width: 90%;
+    margin-left: 10px;
+}

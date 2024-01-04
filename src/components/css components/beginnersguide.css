@@ -1,0 +1,58 @@
+.Beginner-Page-Guide-Wrapper
+{
+    justify-content: center;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    padding-top: 100px;
+}
+
+.Beginner-Page-Guide-Wrapper > div:not(:first-child)
+{
+    margin-top: 50px;
+    width: 75%;
+}
+
+.Decal-Bar
+{
+    border: 5px solid;
+    background-color: white;
+}
+
+.Page-Title
+{
+    background-color: #062F4F;
+    color: white;
+    width: 394px;
+    height: 118px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.011em;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Button-El
+{
+    background-color: #646464;
+    color: white;
+    border-radius: 50px;
+    width: 20%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    clear: both;
+    text-decoration: none;
+}
+
+.Button-El:hover {
+    color: black; 
+    cursor: pointer;
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+    border: none;
+}

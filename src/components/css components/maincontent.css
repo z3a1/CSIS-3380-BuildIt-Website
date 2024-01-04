@@ -1,0 +1,10 @@
+.wrapper
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 1414px;
+    margin: auto;
+    align-self: center;
+}
